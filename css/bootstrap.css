@@ -515,7 +515,11 @@ h3,
 
 h4,
 .h4 {
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 18px;
+>>>>>>> ca0caeb6219f0442df5c643861e2e1878d3b6d12
 }
 
 h5,
@@ -4918,7 +4922,11 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
+<<<<<<< HEAD
   font-size: 31px;
+=======
+  font-size: 21px;
+>>>>>>> ca0caeb6219f0442df5c643861e2e1878d3b6d12
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
@@ -6801,4 +6809,8 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ca0caeb6219f0442df5c643861e2e1878d3b6d12
