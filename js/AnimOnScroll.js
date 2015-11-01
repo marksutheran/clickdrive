@@ -86,6 +86,9 @@
 			viewportFactor : 0
 		},
 		_init : function() {
+			//No idea why this is needed. Mark
+			if (this.el == null)
+				return;
 			this.items = Array.prototype.slice.call( document.querySelectorAll( '#' + this.el.id + ' > li' ) );
 			this.itemsCount = this.items.length;
 			this.itemsRenderedCount = 0;

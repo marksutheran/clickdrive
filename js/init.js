@@ -154,30 +154,5 @@ $("#navbar ul li a[href^='#']").on('click', function(e) {
       }
     });
 
-
-
-    // CONTACT PAGE
-
-      function initialize() {
-        var myLatLong = new google.maps.LatLng(40.7556,-73.9797);
-        var mapOptions = {
-          center: myLatLong,
-          scrollwheel: false,
-          zoom: 13
-        };
-        var map = new google.maps.Map(document.getElementById("map-canvas"),
-            mapOptions);
-        // To add the marker to the map, use the 'map' property
-        var marker = new google.maps.Marker({
-            position: myLatLong,
-            map: map,
-            title:"123 Broadway"
-        });
-
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    
-    
-
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
